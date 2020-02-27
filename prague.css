@@ -1,0 +1,73 @@
+body {
+    background-image: url(images/prague.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-style: italic; 
+}
+
+.square {
+  position: fixed;
+  top: 30%;
+  left: 25%;
+  margin-top: -50px;
+  margin-left: -100px;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 70vh; 
+  background-color: lightsteelblue;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+p{
+   color: white;
+   text-align: center;  
+}
+
+div ul{
+    list-style-type: circle;
+    color: white;     
+}
+
+.inputs{
+    flex-direction: column;
+    align-items: center;
+     background-color: lightsteelblue;
+    display: flex;
+    width: 60vw;
+    text-align: center;
+      
+}
+input {
+    color: white;
+    background-color: lightsteelblue;
+    width: 30vw;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    
+}
+input:hover {
+    opacity: 70%;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+align-items: center;
+    
+}
+
+a:hover {
+  background-color: deepskyblue;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
